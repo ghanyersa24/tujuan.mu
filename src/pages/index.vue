@@ -7,6 +7,7 @@
 <style scoped>
 .amm-logo {
   width: 200px;
+  margin-bottom: 50px;
 }
 </style>
 
