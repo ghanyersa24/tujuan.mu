@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.container-center {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: #000;
+}
+.amm-title {
+  color: white;
+  position: absolute;
+  top: 60%;
+  font-family: "Gill Sans";
+  background: linear-gradient(to right, #ecebeb 0%, #0b3f24 30%, #ecebeb 40%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 3s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% center;
+  }
+
+  100% {
+    background-position: -200% center;
+  }
+}
