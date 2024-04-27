@@ -1,6 +1,6 @@
 <template>
   <div class="container-center">
-    <img class="amm-logo" src="/public/amm.png" />
+    <img class="amm-logo" src="/amm.png" />
     <div class="loader"></div>
     <h5 class="amm-title">Angkatan Muda Muhammadiyah</h5>
   </div>
